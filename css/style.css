@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #000;
+  font-size: 14px;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* ここからheader */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerLogo {
+  width: 100px;
+  margin-right: 60px;
+}
+#header .headerMenu {
+  display: flex;
+  padding: 0 16px;
+}
+#header .headerNav .menu {
+  display: flex;
+  text-align: center;
+}
+#header .headerNav li {
+  margin-right: 30px;
+}
+#header .headerNav li a {
+  color: #333;
+}
+#header .contact {
+  background-color: #000;
+  color: #fff;
+  line-height: 80px;
+  width: 200px;
+  height: 80px;
+  font-size: 12px;
+  text-align: center;
+}
+/* ここからmainVisual */
+.mainVisual {
+  margin-bottom: 120px;
+}
